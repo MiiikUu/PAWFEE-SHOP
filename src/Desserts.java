@@ -62,14 +62,14 @@ public class Desserts extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(61, 61, 61)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(261, Short.MAX_VALUE))
+                .addContainerGap(795, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(232, Short.MAX_VALUE))
+                .addContainerGap(514, Short.MAX_VALUE))
         );
 
         pack();
