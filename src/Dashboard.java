@@ -69,7 +69,7 @@ public class Dashboard extends javax.swing.JFrame {
         getContentPane().add(jButton4);
         jButton4.setBounds(480, 340, 180, 40);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Beige Red Minimalist Pastry Bakery Logo (800 x 500 px) (1).png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Beige Red Minimalist Pastry Bakery Logo (800 x 500 px) (3).png"))); // NOI18N
         jLabel2.setText("jLabel2");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(0, 0, 800, 500);
