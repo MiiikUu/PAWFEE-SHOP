@@ -59,7 +59,7 @@ public class Dashboard extends javax.swing.JFrame {
         jButton3.setBounds(140, 270, 180, 40);
 
         jButton4.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
-        jButton4.setText("Exit");
+        jButton4.setText("Exit ");
         getContentPane().add(jButton4);
         jButton4.setBounds(140, 320, 180, 40);
 
