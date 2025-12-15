@@ -271,7 +271,7 @@ public class Desserts extends javax.swing.JFrame {
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image 6.png"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image 6 (1).png"))); // NOI18N
         jPanel3.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, -1, -1));
 
         jLabel16.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
@@ -488,7 +488,7 @@ public class Desserts extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Drinks().setVisible(true);
+                new Desserts().setVisible(true);
             }
         });
     }

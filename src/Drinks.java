@@ -380,12 +380,12 @@ public class Drinks extends javax.swing.JFrame {
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Precious\\Downloads\\image 13.png")); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/image 14.png"))); // NOI18N
         jPanel9.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 90, 70));
 
         jLabel21.setFont(new java.awt.Font("Comic Sans MS", 1, 14)); // NOI18N
         jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel21.setText("Flat White");
+        jLabel21.setText("Macchiato");
         jPanel9.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 110, -1));
 
         jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 340, 110, 100));
