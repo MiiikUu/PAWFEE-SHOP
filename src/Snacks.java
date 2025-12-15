@@ -39,28 +39,36 @@ public class Snacks extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
         jPanel14 = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jPanel16 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
         jPanel20 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
@@ -69,6 +77,7 @@ public class Snacks extends javax.swing.JFrame {
         jPanel23 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
@@ -116,7 +125,6 @@ public class Snacks extends javax.swing.JFrame {
         jButton13.setText("jButton13");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(800, 500));
 
         jPanel2.setBackground(new java.awt.Color(236, 209, 180));
         jPanel2.setPreferredSize(new java.awt.Dimension(800, 500));
@@ -148,88 +156,97 @@ public class Snacks extends javax.swing.JFrame {
 
         jButton1.setText("Search");
 
-        jPanel4.setBackground(new java.awt.Color(204, 204, 204));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\pretzel.png")); // NOI18N
         jPanel4.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Pretzel");
         jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 49, 10));
 
-        jPanel5.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/pretzel.png"))); // NOI18N
+        jPanel4.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 30));
 
-        jLabel15.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\cheeseball.png")); // NOI18N
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel5.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Cheeseball");
         jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, 10));
 
-        jPanel8.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel33.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cheeseball.png"))); // NOI18N
+        jPanel5.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\fries.png")); // NOI18N
+        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel8.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Fries");
         jPanel8.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 37, 10));
 
-        jPanel10.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel34.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/fries.png"))); // NOI18N
+        jPanel8.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 80, 40));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\dried fruit.png")); // NOI18N
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel10.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setText("  Dried Fruit");
         jPanel10.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
 
-        jPanel14.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel35.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/dried fruit.png"))); // NOI18N
+        jPanel10.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 60, 40));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\doritos.png")); // NOI18N
+        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel14.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setText("Doritos");
         jPanel14.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, -1, 20));
 
+        jLabel31.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/doritos.png"))); // NOI18N
+        jLabel31.setText("jLabel31");
+        jPanel14.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 56, 35));
+
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton2.setText("Back");
 
-        jPanel16.setBackground(new java.awt.Color(204, 204, 204));
         jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\ham sandwich.png")); // NOI18N
         jPanel16.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setText("Ham Sandwich");
         jPanel16.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 57, -1, -1));
 
-        jPanel18.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel37.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/ham sandwich.png"))); // NOI18N
+        jPanel16.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 60, 40));
 
-        jLabel21.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\potato chips.png")); // NOI18N
+        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel18.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(19, 15, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel10.setText("   Potato Chips");
         jPanel18.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 90, 20));
 
-        jPanel20.setBackground(new java.awt.Color(204, 204, 204));
-        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel38.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/potato chips.png"))); // NOI18N
+        jPanel18.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 70, 40));
 
-        jLabel22.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\burgers.png")); // NOI18N
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         jPanel20.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel11.setText("Burger");
         jPanel20.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 43, -1));
+
+        jLabel39.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/burgers.png"))); // NOI18N
+        jPanel20.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 60, 40));
 
         jButton3.setText("Add");
         jButton3.addActionListener(this::jButton3ActionPerformed);
@@ -246,15 +263,16 @@ public class Snacks extends javax.swing.JFrame {
         jButton7.setText("Add");
         jButton7.addActionListener(this::jButton7ActionPerformed);
 
-        jPanel23.setBackground(new java.awt.Color(204, 204, 204));
         jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\maret\\Downloads\\Popcorn.png")); // NOI18N
         jPanel23.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, 46));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setText("Pop Corn");
         jPanel23.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, -1));
+
+        jLabel36.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Popcorn.png"))); // NOI18N
+        jPanel23.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 60, 60));
 
         jButton8.setText("Add");
         jButton8.addActionListener(this::jButton8ActionPerformed);
@@ -459,10 +477,10 @@ public class Snacks extends javax.swing.JFrame {
                                     .addComponent(jPanel23, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(43, 43, 43)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, 93, Short.MAX_VALUE)
+                                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jPanel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(pnlOrderDetails, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -652,6 +670,15 @@ public class Snacks extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
